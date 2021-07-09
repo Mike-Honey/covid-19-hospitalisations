@@ -56,7 +56,7 @@ The lines tracked quite tightly for their first and second waves (top chart), bu
 
 I present my version for the available Australian data, from covidlive.com.au. Australian data is sparse and spiky so I smoothed using 7-day rolling averages. 
 
-I found the closest fit for the line seemed to be for 8% (cases expected to result in hospitalisation) and 2 days (delay from case reporting to hospitalisation). Using the interactive dataviz you can adjust those to suit your understanding.
+I found the closest fit for the line now seems to be for 18% (cases expected to result in hospitalisation) and 6 days (delay from case reporting to hospitalisation). Using the interactive dataviz you can adjust those to suit your understanding.
 
 A page is presented set for the current New South Wales outbreak, with an indicator of the date that outbreak started.
 
