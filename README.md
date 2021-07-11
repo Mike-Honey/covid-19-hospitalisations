@@ -13,7 +13,7 @@ Once parameters are found that get a close fit between the lines, then any diver
 
 ## New South Wales - June 2021
 
-Adjust the parameters to suit, default is 8% after 2 days.
+Adjust the parameters to suit, default is now 18% after 6 days.
 
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D)
 
@@ -21,7 +21,7 @@ Adjust the parameters to suit, default is 8% after 2 days.
 
 ## Australia - explore
 
-Choose any state/territory, date range etc. Adjust the parameters to suit, default is 8% after 2 days.
+Choose any state/territory, date range etc. Adjust the parameters to suit, default is 18% after 6 days.
 
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection32e05b49cb88a98d511b)
 
