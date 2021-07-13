@@ -60,11 +60,13 @@ I found the closest fit for the line now seems to be for 18% (cases expected to 
 
 A page is presented set for the current New South Wales outbreak, with an indicator of the date that outbreak started.
 
-An "explorer" page is also presented where you can choose to focus on a state of interest or alter the date range.
+An "explorer" page is also presented where you can choose to focus on a state of interest or alter the date range. 
 
 Note the hospitalisation figures used internationally are understood to be the number of people admitted to hospital each day. That figure is publicly available in some countries, but not for Australia (AFAIK - please contact me if you are aware of a source dataset). 
 
 Instead in Australia we can get the number of people currently in hospital for COVID-19 each day. So for a fairly close approximation of hospital admissions, I am using the daily increase in hospitalisations. This will be slightly understated at the tail end of each outbreak, when more people are leaving hospital than entering.
+
+Note Queensland current policy is to admit all COVID-19 cases to hospital, so their figures dont make sense for this analysis.
 
 
 THIS REPORT IS NOT HEALTH ADVICE - REFER TO YOUR LOCAL HEALTH AUTHORITY.
