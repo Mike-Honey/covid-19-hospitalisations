@@ -11,9 +11,18 @@ Once parameters are found that get a close fit between the lines, then any diver
 - health system under pressure
 - more/less vulnerable population becoming infected
 
+## Victoria - July 2021
+
+Adjust the parameters to suit, default is 10% after 6 days.
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection0956854026275b71d452)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-hospitalisations/raw/main/covid-19-hospitalisations%20VIC%202021-07.png)](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection0956854026275b71d452)
+
+
 ## New South Wales - June 2021
 
-Adjust the parameters to suit, default is now 18% after 6 days.
+Adjust the parameters to suit, default is now 10% after 6 days.
 
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D)
 
