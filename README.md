@@ -40,7 +40,18 @@ Choose any state/territory, date range etc. Adjust the parameters to suit, defau
 
 [![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-hospitalisations/raw/main/covid-19-hospitalisations%20Australia.png)](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection32e05b49cb88a98d511b)
 
-**Reference:**
+## Reference
+
+### Time-shifted distribution analysis
+
+The primary analysis presented in this report is a single page the presents the actual data on hospitalisation, ICU, ventilation and deaths, together with a simple "forecast". This exploits the observable relationship between each of these events, that typically occur for a given percentage of cases, after a typical/average delay. The exact % and delay are subjective - I've set my best guesses as the defaults, but you can try alternatives.  
+
+Inspiration for this analysis came from this [Twitter post, referencing work by Nigel Marks](https://twitter.com/DrGetafix/status/1420563950156926977/).
+
+
+### Legacy analyses
+
+I now consider the remaining pages to be less useful, so I dont intend to develop them further. Automated data updates will continue.
 
 I noticed a few international analyses using a similar method - comparing: 
 - "expected hospitalisations" - % X of new cases (typically 2% to 10%), vs
@@ -65,7 +76,7 @@ The lines tracked quite tightly for their first and second waves (top chart), bu
 
 [![Click to view the tweet](https://github.com/Mike-Honey/covid-19-hospitalisations/raw/main/covid-19-hospitalisations%20segal_eran.png)](https://twitter.com/segal_eran/status/1410661825197363201)
 
-**Summary**
+## Summary
 
 The idea being explored is that cases can predict future need for hospitalisations, ICU, ventilation and death. Parameters are used for:
 - the % of cases predicted to need hospitalisation, ICU, ventilation and result in death
@@ -78,17 +89,6 @@ Once parameters are found that get a close fit between the Actual and Forecast s
 - more/less vulnerable population becoming infected
 
 Australian COVID-19 data from covidlive.com.au. 
-
-**Time-shifted distribution analysis**
-
-The primary analysis presented in this report is a single page the presents the actual data on hospitalisation, ICU, ventilation and deaths, together with a simple "forecast". This exploits the observable relationship between each of these events, that typically occur for a given percentage of cases, after a typical/average delay. The exact % and delay are subjective - I've set my best guesses as the defaults, but you can try alternatives.  
-
-Inspiration for this analysis came from this [Twitter post, referencing work by Nigel Marks](https://twitter.com/DrGetafix/status/1420563950156926977/).
-
-
-**Legacy analyses**
-
-I now consider the remaining pages to be less useful, so I dont intend to develop them further. Automated data updates will continue.
 
 A page is presented set for the current New South Wales and Victoria outbreaks, with an indicator of the date that outbreak started.
 
