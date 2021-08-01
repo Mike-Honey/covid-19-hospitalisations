@@ -1,15 +1,36 @@
 # covid-19-hospitalisations
 Projects on the topic of COVID-19 hospitalisations - mostly DataViz
 
-The idea being explored is that cases can predict future hospitalisations and patients in ICU. Parameters are used for:
-- the % of cases predicted to result in hospitalisation or ICU
-- the number of days to shift/delay between case reporting and hospitalisation or ICU
+The idea being explored is that cases can predict future need for hospitalisations, ICU, ventilation and death. Parameters are used for:
+- the % of cases predicted to need hospitalisation, ICU, ventilation and result in death
+- the number of days to shift/delay between case reporting and hospitalisation, ICU, ventilation or death
 
-Once parameters are found that get a close fit between the lines, then any divergence might indicate something has changed in the situation, e.g.
+Once parameters are found that get a close fit between the Actual and Forecast series, then any divergence might indicate something has changed in the situation, e.g.
 - new variant causing more/less severe illness
 - new variant causing faster/slower onset of severe illness
 - health system under pressure
 - more/less vulnerable population becoming infected
+
+----
+## New South Wales - June 2021
+
+Interactive dataviz - adjust the parameters to suit.
+
+**Time-shifted Distribution analysis**
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectiond3daa2ec04d70ac3cb70)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-hospitalisations/raw/main/covid-19-hospitalisations%20NSW%20TSD%202021-06.png)](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectiond3daa2ec04d70ac3cb70)
+
+**Hospitalisation**
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection7aa0c42817229772e3cc)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-hospitalisations/raw/main/covid-19-hospitalisations%20NSW%202021-06.png)](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection7aa0c42817229772e3cc)
+
+**ICU**
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc9f713f7acdb75beb805)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-hospitalisations/raw/main/covid-19-hospitalisations%20NSW%202021-06%20ICU.png)](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc9f713f7acdb75beb805)
+
 
 ----
 ## Victoria - July 2021
@@ -19,22 +40,6 @@ Adjust the parameters to suit, default is 10% after 6 days.
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection0956854026275b71d452)
 
 [![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-hospitalisations/raw/main/covid-19-hospitalisations%20VIC%202021-07.png)](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection0956854026275b71d452)
-
-----
-## New South Wales - June 2021
-
-Adjust the parameters to suit, default is now 10% after 6 days.
-
-**Hospitalisation**
-[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D)
-
-[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-hospitalisations/raw/main/covid-19-hospitalisations%20NSW%202021-06.png)](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D)
-
-**ICU**
-[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc9f713f7acdb75beb805)
-
-[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-hospitalisations/raw/main/covid-19-hospitalisations%20NSW%202021-06%20ICU.png)](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc9f713f7acdb75beb805)
-
 
 
 ## Australia - explore
