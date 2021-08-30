@@ -61,9 +61,13 @@ Choose any state/territory, date range etc. Adjust the parameters to suit, defau
 
 ### Time-shifted distribution analysis
 
-The primary analysis presented in this report is a single page the presents the actual data on hospitalisation, ICU, ventilation and deaths, together with a simple "forecast". This exploits the observable relationship between each of these events, that typically occur for a given percentage of cases, after a typical/average delay. The exact % and delay are subjective - I've set my best guesses as the defaults, but you can try alternatives.  
+The primary analysis presented in this report is a single page the presents the actual data on hospitalisation, ICU, ventilation and deaths, together with a simple "forecast". This exploits the observable relationship between each of these events, that typically occur for a given percentage of cases, after a typical/average delay. The exact % and delay are subjective - I've set my best guesses as the defaults, but you can try alternatives.
 
-Inspiration for this analysis came from this [Twitter post, referencing work by Nigel Marks](https://twitter.com/DrGetafix/status/1420563950156926977/).
+For deaths, the cumulative total of cases is used.  For the other series, the daily active cases are used.  This follows the differences in how those figures are reported by health departments - deaths are a cumulative total whereas hospitalisation, ICU and ventilation cases are daily snapshots.
+
+A separate page is presented for each outbreak, by Geography (State/Territory) and start month.  It's interesting to compare differences in the % Expected between Geographies and outbreak phases.
+
+Inspiration for this analysis came from this [Twitter post, referencing work by Nigel Marks](https://twitter.com/DrGetafix/status/1420563950156926977/).  Thanks also to this [Twitter post by Richard from Sydney](https://twitter.com/RichardfromSyd1/status/1432280863866122245) which pointed out that deaths should be derived from cumulative/total cases.
 
 
 ### Legacy analyses
