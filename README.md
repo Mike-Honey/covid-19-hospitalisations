@@ -12,6 +12,16 @@ Interactive dataviz - adjust the parameters to suit.
 [![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-hospitalisations/raw/main/covid-19-hospitalisations%20QLD%202021-11%20TSD.png)](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection7929eb90585c77cbbd40)
 
 ----
+## Northern Territory - November 2021
+
+Interactive dataviz - adjust the parameters to suit.
+
+**Time-shifted Distribution analysis**
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection94f34937840914c39997)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-hospitalisations/raw/main/covid-19-hospitalisations%20NT%202021-11%20TSD.png)](https://app.powerbi.com/view?r=eyJrIjoiY2QzODIzZmYtMGFjOS00ZGEzLWFhZTktYWU0YzhkN2JhOGViIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection94f34937840914c39997)
+
+----
 ## Australian Capital Territory - August 2021
 
 Interactive dataviz - adjust the parameters to suit.
